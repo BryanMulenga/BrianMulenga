@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jeremy's personal portfolio website created using HTML only">
+    <title>Jeremy's Personal Portfolio</title>
+</head>
+
+<body>
+    <header id="top">
+        <h1>Jeremy's Personal Portfolio</h1>
+        <p>Welcome to my personal website. This website presents my education, skills, projects, hobbies and goals.</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about" title="Read about me">About Me</a></li>
+                <li><a href="#education" title="View my education">Education</a></li>
+                <li><a href="#skills" title="View my skills">Skills</a></li>
+                <li><a href="#projects" title="View my projects">Projects</a></li>
+                <li><a href="#hobbies" title="View my hobbies">Hobbies</a></li>
+                <li><a href="#gallery" title="View my gallery">Gallery</a></li>
+                <li><a href="#contact" title="Contact me">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <article>
+                <h3>Introduction</h3>
+                <p>
+                    My name is Jeremy. I am a student interested in technology, web development
+                    and learning practical digital skills. I enjoy developing my knowledge and
+                    using technology to create useful projects.
+                </p>
+
+                <blockquote cite="https://www.w3.org/">
+                    Learning by creating projects is one of the best ways to develop practical skills.
+                </blockquote>
+            </article>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>My Academic Journey</h3>
+                <p>I am currently developing my knowledge in information and web-related subjects.</p>
+
+                <ol>
+                    <li>Secondary Education</li>
+                    <li>Information and Web Development Studies</li>
+                    <li>Practical HTML and Web Development</li>
+                </ol>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <article>
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>Basic Web Design</li>
+                    <li>Computer Applications</li>
+                    <li>Git and GitHub</li>
+                    <li>Problem Solving</li>
+                </ul>
+
+                <h3>Skill Levels</h3>
+                <table border="1">
+                    <caption>Personal Skill Overview</caption>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Level</th>
+                            <th>Goal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Intermediate</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>GitHub</td>
+                            <td>Beginner</td>
+                            <td>Intermediate</td>
+                        </tr>
+                        <tr>
+                            <td>Problem Solving</td>
+                            <td>Intermediate</td>
+                            <td>Advanced</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    This website is my HTML assignment project. It demonstrates the use of
+                    HTML elements, attributes and semantic structure.
+                </p>
+            </article>
+
+            <article>
+                <h3>Future Web Projects</h3>
+                <p>
+                    In the future, I would like to create more websites and learn CSS,
+                    JavaScript and other web technologies.
+                </p>
+            </article>
+
+            <aside>
+                <h3>Project Note</h3>
+                <p>This assignment is intentionally created using HTML without external CSS or JavaScript.</p>
+            </aside>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies and Interests</h2>
+            <dl>
+                <dt>Technology</dt>
+                <dd>Learning about computers, websites and new digital tools.</dd>
+
+                <dt>Music</dt>
+                <dd>Listening to music and exploring creative ideas.</dd>
+
+                <dt>Sports and Games</dt>
+                <dd>Following sports and enjoying football-related games.</dd>
+
+                <dt>Creativity</dt>
+                <dd>Creating designs, ideas and digital content.</dd>
+            </dl>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+
+            <figure>
+                <img
+                    src="https://via.placeholder.com/400x250"
+                    alt="Placeholder image representing a web development project"
+                    width="400"
+                    height="250"
+                    loading="lazy">
+                <figcaption>Web development project placeholder image.</figcaption>
+            </figure>
+
+            <p>
+                The image above is a placeholder. It can be replaced with a personal project
+                image when the website is published.
+            </p>
+        </section>
+
+        <section id="goals">
+            <h2>My Goals</h2>
+            <p>
+                My goal is to improve my web development skills and become confident in
+                creating functional and well-structured websites.
+            </p>
+
+            <p>
+                <strong>Current focus:</strong>
+                <em>HTML structure, accessibility, GitHub and good coding practices.</em>
+            </p>
+
+            <p>
+                Last updated:
+                <time datetime="2026-08-14">14 August 2026</time>
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Full Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+                </p>
+
+                <p>
+                    <label for="topic">Reason for Contact:</label>
+                    <select id="topic" name="topic">
+                        <option value="general">General enquiry</option>
+                        <option value="project">Project discussion</option>
+                        <option value="feedback">Website feedback</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        cols="40"
+                        placeholder="Write your message here"
+                        required></textarea>
+                </p>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Jeremy's Personal Portfolio. All rights reserved.</p>
+        <address>
+            Contact: <a href="mailto:jeremy@example.com">jeremy@example.com</a>
+        </address>
+        <p><small>This website was created for the HTML Website Development Assignment.</small></p>
+        <p><a href="#top">Back to top</a></p>
+    </footer>
+</body>
+</html>
